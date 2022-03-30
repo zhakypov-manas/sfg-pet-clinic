@@ -42,11 +42,15 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
 
         </plugins>
     </build>
 
+    <scm>
+        <developerConnection>scm:git:github.com/zhakypov-manas/sfg-pet-clinic.git</developerConnection>
+    </scm>
 
 </project>
